@@ -21,3 +21,8 @@ export function generateImageUrl(prefixPath, start, end, version = 1) {
   }
   return urls;
 }
+
+
+export const ImageUrlsConstants = {
+  Nike2: generateImageUrls("/images/n2/", 0, 30, 1)
+}

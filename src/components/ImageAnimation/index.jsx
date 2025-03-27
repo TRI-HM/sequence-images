@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./styles.css";
 import { ImageAnimationVariant } from "./config";
-import Spinner from "../Spinner";
+import Spinner from "../../components/Spinner";
 
 const DefaultFPS = 25;
 
